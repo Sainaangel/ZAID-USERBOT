@@ -9,12 +9,12 @@ if os.path.exists("local.env"):
 API_ID = int(getenv("API_ID", "6296490")) #optional
 API_HASH = getenv("API_HASH", "24385183c93a98ae4155c25d9f5f64b2") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "844126468").split()))
 OWNER_ID = int(getenv("OWNER_ID", "5467311248"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://pankajsain:pankaj9024@cluster0.fdc33h6.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "6080251945:AAFPZ-5EA-GpbWG1KuPd0ET2J_ehDzQ1PUs")
-ALIVE_PIC = getenv("ALIVE_PIC")
-ALIVE_TEXT = getenv("ALIVE_TEXT")
+ALIVE_PIC = getenv("ALIVE_PIC", "https://te.legra.ph/file/7e5b79d224638c0d1a38f.jpg")
+ALIVE_TEXT = getenv("ALIVE_TEXT", "⏤͟͞ ＦＬムＳＨ三[🇮🇳]")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP", "-1001647004968")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
