@@ -8,26 +8,27 @@
         "STRING_SESSION1": {
             "description": "fill with the telethon session string from https://replit.com/@Itz-zaid/Generator",
             "required": true
+            "value": "BQCSg5YAtp1XGn6vRuKd-SEIkRN67SvufFYOMijwvAZXFO4EBDnlH4ztwLbwwgToHnFRmD4yU5loetTJYGdyAQQi2-KCAUH_vW0zgHvKqDOiO6SUJV-Xf_mcr08HyXqAwUlnEw8nwPVTdheMAqx9KKDulOvHvGK1u57ppssktRaM4h6H-qq7bvQS8tg5TP6oNSoIo5zUVOyX7RgSRX4eaYN1VLV1ushdHYnInOHzsGs-wDZRFY6B61I8Ag45VoEh58gEXC9hAitDyw2wOlIMoequd-OnPDFy8_qQqfsswbgFtJAw0kyBW5YjrYq5lNeS98pb6auNA_Iu3P_c_2rmqpg4UWFGzwAAAAF17I4SAA"
         },
         "MONGO_URL": {
             "description": "Fill there an mongo database from mongodb.com",
             "required": true,
-            "value": ""
+            "value": "postgres://rgcxpeipwjmivd:c548d1cc800dcfff65806d7a82d077eb15c2fff7bbe256426ace25d29b685a9c@ec2-52-3-30-226.compute-1.amazonaws.com:5432/dd2dfssu3lok8m"
         },
         "SUDO_USERS": {
             "description": "Fill there your I'd go to @Zaid2_Robot pm and type /id",
             "required": true,
-            "value": "TheUpdatesChannel"
+            "value": "5030682552"
         },
         "OWNER_ID": {
             "description": "Fill there your I'd go to @Zaid2_Robot pm and type /id",
             "required": true,
-            "value": "1234567890"
+            "value": "6273404434"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": ""
+            "value": "6088583240:AAHbdkbAGR6PchHUSjnND37Ex1VO4I5lPS0"
         }
 
     }
